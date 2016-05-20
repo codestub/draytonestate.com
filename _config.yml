@@ -1,0 +1,7 @@
+markdown: kramdown
+baseurl: 'http://www.draytonestate.com/'
+exclude: ['README.md']
+permalink: /:title/
+sass:
+  sass_dir:          _sass
+  style:            :compressed

@@ -1,0 +1,11 @@
+---
+# Drayton Estate SASS Stylesheet
+---
+$primary: #BCC8C1;
+$secondary: #356362;
+$nav-height: 2.3em;
+$page-width: 70%;
+
+@import "reset";
+@import "typography";
+@import "main";
