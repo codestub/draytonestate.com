@@ -55,6 +55,16 @@ a {
   clear: both;
 }
 
+/*----------------------*/
+  Responsive navigation
+/*----------------------*/
+
+
+
+/*----------------------*/
+  Responsive navigation
+/*----------------------*/
+
 .navigation {
   background-color: $primary;
   border-bottom: $secondary $nav-height/10 solid;
@@ -98,15 +108,6 @@ a {
 .content {
   clear: both;
   margin: 1.5em auto;
-}
-
-.divider {
-  width: $page-width/1.5;
-  max-width: 600px;
-  fill: #333;
-  margin: auto;
-  display: block;
-  padding: 1em 0 1em 0;
 }
 
 .left {
