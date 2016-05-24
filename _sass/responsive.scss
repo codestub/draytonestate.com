@@ -66,6 +66,13 @@
     border-bottom: $secondary solid 0.5em;
   }
 
+  .navigation ul {
+    width: 100%;
+    li {
+      padding: 0.5em 0;
+    }
+  }
+
   .menu-toggle-button {
     display: block;
     background-color: $secondary;
