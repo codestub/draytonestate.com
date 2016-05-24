@@ -4,7 +4,17 @@
 
   <meta name="viewport" content="width=device-width">
 
-  <title>{{ site.title }}</title>
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+
+  <title>
+    {% if page.title %}
+      {{ page.title }}
+    {% else %}
+      The Drayton Estate, Northamptonshire
+    {% endif %}
+  </title>
 
   <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
 
