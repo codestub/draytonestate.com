@@ -95,6 +95,9 @@
 
   .responsive-menu {
     display: block;
+    .navigation {
+      display: none;
+    }
   }
 
   #normal-menu {
