@@ -1,0 +1,32 @@
+.formspree {
+  box-sizing: border-box;
+  width: 70%;
+  margin: auto;
+  clear: both;
+  #message {
+    max-width: 100%;
+  }
+  #email, #message {
+    border-radius: 0.3rem;
+    background-color: #eee;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 1em;
+    margin: 1em 0;
+    display: block;
+    width: 100%;
+    border: none;
+    &:nth-child(2) {
+      height:5em;
+    }
+  }
+  #submit {
+    background: $secondary;
+    color: #fff;
+    width: auto;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1em;
+    padding: .5em 1em;
+  }
+}

@@ -43,14 +43,13 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 765px) {
   .contact-details {
     padding-bottom: 0;
     li {
       display: block;
       float: none;
       text-align: center;
-      color: red;
       width: 100%;
       &:nth-child(1), &:nth-child(3) {
         text-align: center;
@@ -60,9 +59,56 @@
 
   .logo {
     margin-top: 0.4em;
+    height: 8em;
   }
 
   .banner {
     border-bottom: $secondary solid 0.5em;
+  }
+
+  .menu-toggle-button {
+    display: block;
+    background-color: $secondary;
+    text-align: center;
+    text-transform: uppercase;
+    a {
+      color: #fff;
+      span {
+        vertical-align: middle;
+        display: table-cell;
+        padding: 0.8em;
+      }
+    }
+  }
+
+  .menu-toggle-icon {
+    height: 1.5em;
+    stroke: #fff;
+  }
+
+  .responsive-menu {
+    display: block;
+  }
+
+  #normal-menu {
+    display: none;
+  }
+
+  #toggled-menu {
+    ul li {
+      display: block;
+      color: #fff;
+      width: 100%;
+      background-color: $primary;
+      &:hover {
+        background-color: $secondary;
+      }
+      #current {
+        background-color: $secondary;
+      }
+      &:last-child {
+        border-bottom: $secondary $nav-height/10 solid;
+      }
+    }
   }
 }

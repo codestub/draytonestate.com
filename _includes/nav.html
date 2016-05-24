@@ -1,8 +1,8 @@
-<nav class="navigation">
+<nav class="navigation {{ include.navclass }}" id="{{ include.navid }}">
   <ul>
     <li id="{% if page.url == '/' %}current{% endif %}"><a href="{{ site.baseurl }}">Home</a></li>
     <li id="{% if page.url contains 'lettings' %}current{% endif %}"><a href="http://www.rightmove.co.uk/property-to-rent/find/Fisher-German-LLP/Market-Harborough-Lettings.html?locationIdentifier=BRANCH%5E39536&propertyStatus=all&includeLetAgreed=true&_includeLetAgreed=on">Lettings</a></li>
-    <li id="{% if page.url contains 'composting' %}current{% endif %}"><a href="http://material-change.com/">Composting</a></li>
+    <li id="{% if page.url contains 'composting' %}current{% endif %}"><a href="{{ site.baseurl }}composting/">Composting</a></li>
     <li id="{% if page.url contains 'islip-garage' %}current{% endif %}"><a href="http://www.theislipgarage.co.uk/">Islip Garage</a></li>
     <li id="{% if page.url contains 'all4s' %}current{% endif %}"><a href="http://www.all4s.co.uk/">All4S</a></li>
     <li id="{% if page.url contains 'contact' %}current{% endif %}"><a href="{{ site.baseurl }}contact/">Contact</a></li>

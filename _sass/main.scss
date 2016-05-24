@@ -55,15 +55,17 @@ a {
   clear: both;
 }
 
-/*----------------------*/
-  Responsive navigation
-/*----------------------*/
+.menu-toggle-button {
+  display: none;
+}
 
+.responsive-menu {
+  display: none;
+}
 
-
-/*----------------------*/
-  Responsive navigation
-/*----------------------*/
+.normal-menu {
+  display: block;
+}
 
 .navigation {
   background-color: $primary;
@@ -159,6 +161,10 @@ a {
 
 .all4s {
   background-image: url('/assets/car300x300.jpg');
+}
+
+.office {
+  background-image: url('/assets/office300x300.jpg');
 }
 
 footer {

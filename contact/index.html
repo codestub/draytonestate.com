@@ -1,10 +1,28 @@
 ---
 layout: default
 ---
-<form action="https://formspree.io/your@email.com"
+
+
+
+
+<section class="page-width table-switch-responsive">
+  <div class="left text">
+    <h2 class="text-center">Contact us</h2>
+    <p>
+      For general enquiries please call our office or send us an email using the details at the top of the page. You can also use the contact form below, and we'll get back to you as soon as possible.
+    </p>
+  </div>
+  <div class="circular-pic office right">
+  </div>
+</section>
+
+
+
+
+<form class="formspree" action="https://formspree.io/draytonestateforwarder@gmail.com"
       method="POST">
-    <input type="text" name="name">
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+  <input id="email" type="email" name="_replyto" placeholder="Email">
+  <textarea id="message" type="text" name="name" placeholder="Message"></textarea>
+  <input type="text" name="_gotcha" style="display:none">
+  <input id="submit" type="submit" value="Send">
 </form>

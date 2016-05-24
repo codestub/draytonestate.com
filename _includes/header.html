@@ -8,8 +8,23 @@
     </svg>
   </a>
 
-  <div class="navigation">
-    {% include nav.html %}
+  <div class="menu-toggle-button">
+    <a href="#" onclick="toggle_visibile('toggled-menu');">
+      <span>Menu</span>
+      <svg class="menu-toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+        <g stroke-width="18">
+          <path d="M19 53h262M19 256h262M19 153h262"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+  <div class="responsive-menu">
+    {% include nav.html navid="toggled-menu"%}
+  </div>
+
+  <div class="normal-menu">
+    {% include nav.html navid="normal-menu"%}
   </div>
 
 </header>
