@@ -135,6 +135,13 @@ a {
   vertical-align: middle;
 }
 
+.lettings-pic {
+  text-align: center;
+  img {
+    margin: 1em;
+  }
+}
+
 .circular-pic {
   vertical-align: middle;
   width: 300px;
@@ -161,7 +168,7 @@ a {
 }
 
 .islip {
-  background-image: url('/assets/officebuilding300x300.jpg');
+  background-image: url('/assets/300x300islip.jpg');
 }
 
 .all4s {
@@ -178,9 +185,6 @@ footer {
   padding: 2em 0 1em 0;
   background-color: $secondary;
   color: #fff;
-  a {
-    color: #fff;
-  }
 }
 
 .horizontal-list-plain {
