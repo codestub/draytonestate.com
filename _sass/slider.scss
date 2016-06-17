@@ -1,6 +1,8 @@
-// All credit to Dudley Storey for the minimal pure CSS slider
-// I only adapted it for 2 slides instead of 5 and smoothed the return
-// http://thenewcode.com/
+/*
+All credit to Dudley Storey for the minimal pure CSS slider
+I only adapted it for 2 slides instead of 5 and smoothed the return
+http://thenewcode.com/
+*/
 
 @keyframes slidy {
 0% { left: 0%; }
@@ -10,9 +12,9 @@
 100% { left: 0%; }
 }
 
-div#slider { overflow: hidden; border-bottom: $secondary 3em solid;}
-div#slider figure img { width: 20%; float: left; }
-div#slider figure {
+div.slider { overflow: hidden; border-bottom: $secondary 3em solid;}
+div.slider figure img { width: 20%; float: left; }
+div.slider figure {
   border-bottom: $secondary 3em solid;
   position: relative;
   width: 500%;
