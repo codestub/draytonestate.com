@@ -62,13 +62,6 @@
     height: 8em;
   }
 
-  .navigation ul {
-    width: 100%;
-    li {
-      padding: 0.5em 0;
-    }
-  }
-
   .menu-toggle-button {
     display: block;
     background-color: $secondary;
@@ -84,37 +77,35 @@
     }
   }
 
-  .menu-toggle-icon {
-    height: 1.5em;
-    stroke: #fff;
-  }
 
-  .responsive-menu {
-    display: block;
-    .navigation {
-      display: none;
-    }
-  }
-
-  #normal-menu {
+  .normal-menu {
     display: none;
   }
 
-  #toggled-menu {
-    ul li {
-      display: block;
-      color: #fff;
-      width: 100%;
-      background-color: $primary;
-      &:hover {
-        background-color: $secondary;
-      }
-      #current {
-        background-color: $secondary;
-      }
-      &:last-child {
-        border-bottom: $secondary $nav-height/10 solid;
+  .responsive-menu {
+    background-color: $primary;
+    ul {
+      text-align: center;
+      border-bottom: .3em solid $secondary;
+      li {
+        padding: .5em 0 .5em 0;
+        &:hover {
+          background-color: $secondary !important;
+        }
+        a {
+          color: #fff;
+
+        }
       }
     }
+  }
+
+  #current {
+    background-color: $primary;
+  }
+
+  .menu-toggle-icon {
+    height: 1.5em;
+    stroke: #fff;
   }
 }

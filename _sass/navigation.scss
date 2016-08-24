@@ -1,0 +1,24 @@
+.normal-menu {
+  background-color: $primary;
+  border-bottom: 0.2em solid $secondary;
+  text-align: center;
+  ul {
+    width: $page-width;
+    margin: auto;
+    li {
+      display: inline-block;
+      padding: 0.5em 1em;
+      &:hover {
+        background-color: $secondary;
+      }
+      a {
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+  }
+}
+
+#current {
+  background-color: $secondary;
+}
